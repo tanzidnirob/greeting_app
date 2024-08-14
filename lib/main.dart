@@ -10,6 +10,7 @@ class GreetingApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      title: "Greeting App",
       home: HomeActivity(),
     );
   }
